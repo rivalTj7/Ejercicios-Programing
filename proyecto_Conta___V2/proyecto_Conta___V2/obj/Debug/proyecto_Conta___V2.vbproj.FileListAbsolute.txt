@@ -1,0 +1,17 @@
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.vbprojResolveAssemblyReference.cache
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.Inicio.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.Base_de_Datos.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.Consulta.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.Inventario_Ingresos.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.Form5.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.frmIngresos_Cuentas.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.Resources.resources
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.vbproj.GenerateResource.Cache
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.xml
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\bin\Debug\Cuentas.mdf
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\bin\Debug\Cuentas_log.ldf
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\bin\Debug\proyecto_Conta___V2.exe
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\bin\Debug\proyecto_Conta___V2.pdb
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\bin\Debug\proyecto_Conta___V2.xml
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.exe
+C:\Users\Alex Tojin\Pictures\03.TAREA IMB-PC\Trabajos en visual basic\proyecto_Conta___V2\proyecto_Conta___V2\obj\Debug\proyecto_Conta___V2.pdb
