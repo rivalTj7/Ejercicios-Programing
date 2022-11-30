@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{009C69B6-001F-49D4-B9DF-FD708D3C9F9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sispersonal.My.MyApplication</StartupObject>
+    <RootNamespace>sispersonal</RootNamespace>
+    <AssemblyName>sispersonal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sispersonal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sispersonal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIDC">
+      <HintPath>..\..\..\Programacion multi\ProyectosNet\licencias\Creador_Licencia\UIDC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\conexion.vb" />
+    <Compile Include="Datos\fcategoria.vb" />
+    <Compile Include="Datos\fdetalle_salida.vb" />
+    <Compile Include="Datos\fpersonal.vb" />
+    <Compile Include="Datos\fproducto.vb" />
+    <Compile Include="Datos\fbackup.vb" />
+    <Compile Include="Datos\fsalida.vb" />
+    <Compile Include="Datos\fusuario.vb" />
+    <Compile Include="dbpersonalDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbpersonalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Logica\cache\ActiveUser.vb" />
+    <Compile Include="Logica\vcategoria.vb" />
+    <Compile Include="Logica\vdetalle_salida.vb" />
+    <Compile Include="Logica\vpersonal.vb" />
+    <Compile Include="Logica\vproducto.vb" />
+    <Compile Include="Logica\vsalida.vb" />
+    <Compile Include="Logica\vusuario.vb" />
+    <Compile Include="Presentacion\frmAdministrador.Designer.vb">
+      <DependentUpon>frmAdministrador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmAdministrador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmbackup.Designer.vb">
+      <DependentUpon>frmbackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmbackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmcategoria.Designer.vb">
+      <DependentUpon>frmcategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmcategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmconsultas.Designer.vb">
+      <DependentUpon>frmconsultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmconsultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmdetalle_salida.Designer.vb">
+      <DependentUpon>frmdetalle_salida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmdetalle_salida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmingresos.Designer.vb">
+      <DependentUpon>frmingresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmingresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Presentacion\frmpersonal.Designer.vb">
+      <DependentUpon>frmpersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmpersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmproducto.Designer.vb">
+      <DependentUpon>frmproducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmproducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmsalidas.Designer.vb">
+      <DependentUpon>frmsalidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmsalidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmusuarios.Designer.vb">
+      <DependentUpon>frmusuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmusuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\INICIO.Designer.vb">
+      <DependentUpon>INICIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\INICIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmreportecomprobante.Designer.vb">
+      <DependentUpon>frmreportecomprobante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmreportecomprobante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmreportepersonal.Designer.vb">
+      <DependentUpon>frmreportepersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmreportepersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmreporteproducto.Designer.vb">
+      <DependentUpon>frmreporteproducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmreporteproducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentacion\frmAdministrador.resx">
+      <DependentUpon>frmAdministrador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmbackup.resx">
+      <DependentUpon>frmbackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmcategoria.resx">
+      <DependentUpon>frmcategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmconsultas.resx">
+      <DependentUpon>frmconsultas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmdetalle_salida.resx">
+      <DependentUpon>frmdetalle_salida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmingresos.resx">
+      <DependentUpon>frmingresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmpersonal.resx">
+      <DependentUpon>frmpersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmproducto.resx">
+      <DependentUpon>frmproducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmsalidas.resx">
+      <DependentUpon>frmsalidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\INICIO.resx">
+      <DependentUpon>INICIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmreportecomprobante.resx">
+      <DependentUpon>frmreportecomprobante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmreportepersonal.resx">
+      <DependentUpon>frmreportepersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmreporteproducto.resx">
+      <DependentUpon>frmreporteproducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptcomprobante.rdlc" />
+    <EmbeddedResource Include="Reportes\rptpersonal.rdlc" />
+    <EmbeddedResource Include="Reportes\rptproductos.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbpersonalDataSet.xsc">
+      <DependentUpon>dbpersonalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbpersonalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbpersonalDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbpersonalDataSet.xss">
+      <DependentUpon>dbpersonalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connect To.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit Full Screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add To Basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add To Basket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banned User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box Empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My Icons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02ea9139401feb6921516fb12bb75061-icono-de-contacto-de-conversaci--n-personal-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51372.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\484566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-icons-download-personal-card.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Marketplace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Links Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Live Messenger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Live Sync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39DOLARES.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accesorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advertencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archivos-adjuntos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-de-stop-de-un-reproductor-de-video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candy-Candy-candy-candy-9421203-572-508.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito-de-tienda-online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerveza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COBROSSSS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COBRSSSS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config_redentor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correcto-simbolo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\efectivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiqueta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gogeta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goku.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gokuqueda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_BLACK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\megafono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_BLACK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_redentor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monedas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naruto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notificacion_BLACK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notificacion_BLACK2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notificacion_redentor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nube_secundaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nube_sincroizacio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasar-al-siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sakura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trofeo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expandir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-abierto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-abrir-carpeta-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-acerca-de-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-actualizaciones-disponibles-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-adjuntar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-agregar-a-carrito-de-compras-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-alta-prioridad-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-analistica-web-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-analizar-desde-el-portapapeles-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-android-os-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-apoyo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-archivo-de-imagen-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-archivo-de-symlink-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ayuda-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-basura-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-billetera-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-billetes-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bloc-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bolsa-de-compras-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bolsa-de-dinero-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-brocha-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-búsqueda-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-caja-de-herramientas-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-caja-registradora-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendario-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cancelar-2-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-carrito-de-compras-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-carrito-de-la-compra-cargado-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-casa-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cautiverio-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cerrar-ventana-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cinta-métrica-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-comentarios-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-comprar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-comprobado-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-confianza-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-configuración-del-proyecto-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-contacto-de-negocio-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-contactos-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-crear-nuevo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cupón-para-recortar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-de-baja-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-descargar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-descuento-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deshacer-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dinero-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-editar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-editar-archivo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eliminar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-en-alza-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-enlazar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-entrega-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-escáner-de-tarjetas-de-visita-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-estimados-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-etiqueta-de-precio-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-nuevo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-github-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gmail-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-google-drive-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gráfico-circular-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-guardar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-guardar-como-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hoja-de-sierra-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-horas-extras-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hoy-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-huella-dactilar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-idea-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-imprimir-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-información-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-jig-saw-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-kiosco-de-autoservicio-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-llave-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mantenimiento-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-maquina-de-copiar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-martillo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-más-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menú-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimizar-la-ventana-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minutero-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-monedas-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-múltiples-dispositivos-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-noticias-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-nuevo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ocr-impreso-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pala-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pdf-2-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pila-de-monedas-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-producto-usado-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-recordatorios-de-citas-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-regalo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restauración-de-copia-de-seguridad-en-la-nube-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-rodillo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-salir-redondeado-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-seguridad-comprobado-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-seleccionar-todo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-servicios-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-servidor-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sincronizar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-soporte-en-línea-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stack-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-subir-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-taladro-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-teléfono-desconectado-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-thin-client-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tienda-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tijeras-de-jardín-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trabajo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trabajo-artesanal-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-últimas-24-horas-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usuario-femenino-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usuario-masculino-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ver-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-videollamada-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-voice-recorder-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-wifi-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-windows-defender-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-zoom-50.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

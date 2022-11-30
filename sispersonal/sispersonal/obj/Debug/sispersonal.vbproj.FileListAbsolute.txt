@@ -1,0 +1,76 @@
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\bin\Debug\sispersonal.exe.config
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\bin\Debug\sispersonal.exe
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\bin\Debug\sispersonal.pdb
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\bin\Debug\sispersonal.xml
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.vbprojResolveAssemblyReference.cache
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.Resources.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.vbproj.GenerateResource.Cache
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.exe
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.xml
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.pdb
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmcategoria.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmdetalle_salida.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frminicio.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmlogin.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmpersonal.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmproducto.resources
+c:\users\alex tojin\documents\visual studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmsalidas.resources
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmingresos.resources
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmconsultas.resources
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmreportecomprobante.resources
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\RdlCompile.cache
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\RdlCompile.compiled
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmreporteproducto.resources
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmreportepersonal.resources
+C:\Users\Alex Tojin\Documents\Visual Studio 2015\Projects\sispersonal\sispersonal\obj\Debug\sispersonal.frmbackup.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\sispersonal.exe.config
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\sispersonal.exe
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\sispersonal.pdb
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\sispersonal.xml
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.vbprojAssemblyReference.cache
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmbackup.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmcategoria.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmconsultas.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmdetalle_salida.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmingresos.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.Resources.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmpersonal.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmproducto.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmsalidas.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmlogin.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.INICIO.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmreportecomprobante.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmreportepersonal.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmreporteproducto.resources
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.vbproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.vbproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.vbproj.CopyComplete
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.exe
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.xml
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.pdb
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\bin\Debug\UIDC.dll
+C:\Users\Gabriela\Desktop\proyecto riv1-1\sispersonal\sispersonal\obj\Debug\sispersonal.frmAdministrador.resources
